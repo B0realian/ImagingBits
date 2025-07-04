@@ -17,6 +17,8 @@ To see what the resulting array.txt looks like for the image above, look at casc
 
 ## Usage
 From the command line: imagingbits your_image.png -f whatever
+
+
 Where the image has to be your first argument.
 Having only one argument runs the program with default settings (representing each pixel's alpha as a bit and NOT flipping the image).
 A second argument can be either -f or anything else where -f will flip the image vertically on load and anything else will save each pixel's alpha as a byte.
