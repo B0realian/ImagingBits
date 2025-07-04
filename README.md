@@ -20,8 +20,11 @@ From the command line: imagingbits your_image.png -f whatever
 
 
 Where the image has to be your first argument.
+
 Having only one argument runs the program with default settings (representing each pixel's alpha as a bit and NOT flipping the image).
+
 A second argument can be either -f or anything else where -f will flip the image vertically on load and anything else will save each pixel's alpha as a byte.
+
 Using three or more arguments will, regardless of what they are, both flip the image and save alpha as a byte per pixel.
 
 ## Unpacking your bits
